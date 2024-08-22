@@ -2,7 +2,7 @@
 
 The Task "SilentCleanup" is ran as Administrator by default. \
 It creates a temporary folder in temp and places a few dlls there that it later loads. \
-We just wait for that to happen and then replace one of the DLLs with our own. \
+We just wait for that to happen and then replace one of the DLLs with our own.
 
 It really is that simple.
 
