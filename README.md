@@ -6,7 +6,7 @@ I know this has been abused before. This is just another way of doing it.
 # Explanation:
 The Task creates a temporary folder in temp and places a few dlls there that it later loads. \
 We just wait for that to happen and then replace one of the DLLs with our own. \
-This works because Windows (or cleanmgr) does not validate the modules it loads.
+This works because Windows (or cleanmgr) does not validate the modules it loads. \
 It really is that simple.
 
 Notes:
